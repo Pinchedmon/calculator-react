@@ -1,0 +1,121 @@
+body {
+  background-color: #81C784;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.App {
+  width: 420px;
+  height: 460px;
+  background-color: #43A047;
+  -webkit-box-shadow: 0 0 6px #1B5E20;
+          box-shadow: 0 0 6px #1B5E20;
+  border: 2px solid #43A047;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.screen {
+  margin: 7px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 98%;
+  height: 60px;
+  background-color: #388E3C;
+  border-radius: 6px;
+}
+
+.entire {
+  color: #C8E6C9;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.total {
+  color: #E8F5E9;
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.buttons {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 97px 97px 97px 97px;
+      grid-template-columns: 97px 97px 97px 97px;
+  -ms-grid-rows: 70px 70px 70px 70px 70px;
+      grid-template-rows: 70px 70px 70px 70px 70px;
+  margin: 0 auto;
+  width: 98%;
+  height: 380px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: black;
+  background-color: #388E3C;
+  border-radius: 6px;
+  grid-column-gap: 4px;
+  grid-row-gap: 4px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.buttons .AC {
+  color: #B71C1C;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.buttons .zero {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 5;
+      grid-row-start: 5;
+  grid-row-end: 5;
+}
+
+.buttons .equal {
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-column-end: 4;
+  -ms-grid-row: 4;
+      grid-row-start: 4;
+  grid-row-end: 6;
+}
+
+.buttons button {
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  background-color: #E8F5E9;
+  color: #1B5E20;
+  font-size: 20px;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.buttons button:active {
+  border: 2px solid #388E3C;
+}
+/*# sourceMappingURL=App.css.map */
